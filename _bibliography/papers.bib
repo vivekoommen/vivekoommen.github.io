@@ -1,0 +1,83 @@
+---
+---
+@article{oommen2023rethinking,
+    title     = {Rethinking materials simulations: Blending direct numerical simulations with neural operators}, 
+    author    = {Oommen, Vivek and Shukla, Khemraj and Desai, Saaketh and Dingreville, Remi and Karniadakis, George Em},
+    journal   = {arXiv preprint arXiv:2312.05410},
+    year      = {2023},
+    abstract  = {Direct numerical simulations (DNS) are accurate but computationally expensive for predicting materials evolution across timescales, due to the complexity of the underlying evolution equations, the nature of multiscale spatio-temporal interactions, and the need to reach long-time integration. We develop a new method that blends numerical solvers with neural operators to accelerate such simulations. This methodology is based on the integration of a community numerical solver with a U-Net neural operator, enhanced by a temporal-conditioning mechanism that enables accurate extrapolation and efficient time-to-solution predictions of the dynamics. We demonstrate the effectiveness of this framework on simulations of microstructure evolution during physical vapor deposition modeled via the phase-field method. Such simulations exhibit high spatial gradients due to the co-evolution of different material phases with simultaneous slow and fast materials dynamics. We establish accurate extrapolation of the coupled solver with up to 16.5× speed-up compared to DNS. This methodology is generalizable to a broad range of evolutionary models, from solid mechanics, to fluid dynamics, geophysics, climate, and more.},
+    selected  = {true},
+    arxiv     = {2312.05410},
+    code      = {https://github.com/vivekoommen/UNetForMicrostructureEvolution},
+    img_path  = {assets/img/riemannonets.png}
+}
+
+@article{ovadia2023ditto,
+    title     = {Real-time inference and extrapolation via a diffusion-inspired temporal transformer operator ({D}i{TTO})}, 
+    author    = {Ovadia, Oded and Oommen, Vivek and Kahana, Adar and Peyvan, Ahmad and Turkel, Eli and Karniadakis, George Em},
+    journal   = {arXiv preprint arXiv:2307.09072},
+    year      = {2023},
+    abstract  = {Extrapolation remains a grand challenge in deep neural networks across all application domains. We propose an operator learning method to solve time-dependent partial differential equations (PDEs) continuously and with extrapolation in time without any temporal discretization. The proposed method, named Diffusion-inspired Temporal Transformer Operator (DiTTO), is inspired by latent diffusion models and their conditioning mechanism, which we use to incorporate the temporal evolution of the PDE, in combination with elements from the transformer architecture to improve its capabilities. Upon training, DiTTO can make inferences in real-time. We demonstrate its extrapolation capability on a climate problem by estimating the temperature around the globe for several years, and also in modeling hypersonic flows around a double-cone. We propose different training strategies involving temporal-bundling and sub-sampling and demonstrate performance improvements for several benchmarks, performing extrapolation for long time intervals as well as zero-shot super-resolution in time.},
+    abbr      = {DiTTO},
+    selected  = {true},
+    html      = {https://www.youtube.com/@odedovadia},
+    arxiv     = {2307.09072},
+    img_path  = {assets/img/riemannonets.png}
+}
+
+@article{PEYVAN2024116996,
+    title     = {RiemannONets: Interpretable neural operators for Riemann problems}, 
+    author    = {Ahmad Peyvan and Vivek Oommen and Ameya D. Jagtap and George Em Karniadakis},
+    journal   = {Computer Methods in Applied Mechanics and Engineering},
+    year      = {2024},
+    abstract  = {Developing the proper representations for simulating high-speed flows with strong shock waves, rarefactions, and contact discontinuities has been a long-standing question in numerical analysis. Herein, we employ neural operators to solve Riemann problems encountered in compressible flows for extreme pressure jumps (up to 1010 pressure ratio). In particular, we first consider the DeepONet that we train in a two-stage process, following the recent work of Lee and Shin (2023), wherein the first stage, a basis is extracted from the trunk net, which is orthonormalized and subsequently is used in the second stage in training the branch net. This simple modification of DeepONet has a profound effect on its accuracy, efficiency, and robustness and leads to very accurate solutions to Riemann problems compared to the vanilla version. It also enables us to interpret the results physically as the hierarchical data-driven produced basis reflects all the flow features that would otherwise be introduced using ad hoc feature expansion layers. We also compare the results with another neural operator based on the U-Net for low, intermediate, and very high-pressure ratios that are very accurate for Riemann problems, especially for large pressure ratios, due to their multiscale nature but computationally more expensive. Overall, our study demonstrates that simple neural network architectures, if properly pre-trained, can achieve very accurate solutions of Riemann problems for real-time forecasting. The source code, along with its corresponding data, can be found at the following URL: https://github.com/apey236/RiemannONet/tree/main.},
+    selected  = {true},
+    code      = {https://github.com/apey236/RiemannONet/tree/main},
+    html      = {https://www.sciencedirect.com/science/article/pii/S0045782524002524?dgcid=coauthor},
+    img_path  = {assets/img/riemannonets.png}
+}
+
+@article{wu2023gpt,
+    title     = {GPT vs Human for Scientific Reviews: A Dual Source Review on Applications of ChatGPT in Science}, 
+    author    = {Wu, Chenxi and Varghese, Alan John and Oommen, Vivek and Karniadakis, George Em},
+    journal   = {arXiv preprint arXiv:2312.03769},
+    year      = {2023},
+    abstract  = {The new polymath Large Language Models (LLMs) can speed-up greatly scientific reviews, possibly using more unbiased quantitative metrics, facilitating cross-disciplinary connections, and identifying emerging trends and research gaps by analyzing large volumes of data. However, at the present time, they lack the required deep understanding of complex methodologies, they have difficulty in evaluating innovative claims, and they are unable to assess ethical issues and conflicts of interest. Herein, we consider 13 GPT-related papers across different scientific domains, reviewed by a human reviewer and SciSpace, a large language model, with the reviews evaluated by three distinct types of evaluators, namely GPT-3.5, a crowd panel, and GPT-4. We found that 50% of SciSpace's responses to objective questions align with those of a human reviewer, with GPT-4 (informed evaluator) often rating the human reviewer higher in accuracy, and SciSpace higher in structure, clarity, and completeness. In subjective questions, the uninformed evaluators (GPT-3.5 and crowd panel) showed varying preferences between SciSpace and human responses, with the crowd panel showing a preference for the human responses. However, GPT-4 rated them equally in accuracy and structure but favored SciSpace for completeness.},
+    selected  = {true},
+    arxiv     = {2312.03769},
+    img_path  = {assets/img/gpt_vs_human.png}
+}
+
+@article{shukla2024deep,
+    title     = {Deep neural operators as accurate surrogates for shape optimization}, 
+    author    = {Shukla, Khemraj and Oommen, Vivek and Peyvan, Ahmad and Penwarden, Michael and Plewacki, Nicholas and Bravo, Luis and Ghoshal, Anindya and Kirby, Robert M and Karniadakis, George Em},
+    journal   = {Engineering Applications of Artificial Intelligence},
+    year      = {2023},
+    abstract  = {Deep neural operators, such as DeepONet, have changed the paradigm in high-dimensional nonlinear regression, paving the way for significant generalization and speed-up in computational engineering applications. Here, we investigate the use of DeepONet to infer flow fields around unseen airfoils with the aim of shape constrained optimization, an important design problem in aerodynamics that typically taxes computational resources heavily. We present results that display little to no degradation in prediction accuracy while reducing the online optimization cost by orders of magnitude. We consider NACA airfoils as a test case for our proposed approach, as the four-digit parameterization can easily define their shape. We successfully optimize the constrained NACA four-digit problem with respect to maximizing the lift-to-drag ratio and validate all results by comparing them to a high-order CFD solver. We find that DeepONets have a low generalization error, making them ideal for generating solutions of unseen shapes. Specifically, pressure, density, and velocity fields are accurately inferred at a fraction of a second, hence enabling the use of general objective functions beyond the maximization of the lift-to-drag ratio considered in the current work. Finally, we validate the ability of DeepONet to handle a complex 3D waverider geometry at hypersonic flight by inferring shear stress and heat flux distributions on its surface at unseen angles of attack. The main contribution of this paper is a modular integrated design framework that uses an over-parametrized neural operator as a surrogate model with good generalizability coupled seamlessly with multiple optimization solvers in a plug-and-play mode.},
+    selected  = {false},
+    html      = {https://www.sciencedirect.com/science/article/pii/S0952197623017992?casa_token=Damz3krhUYEAAAAA:oDtuTj-a1_BX3MhO_XysLAgTZxffPKScV0yT5iVJ6dzUzlhL4WTKL01lE2lQ1dN6gFk71rl8-8k},
+    img_path  = {assets/img/shape_optimization.png}
+}
+
+@article{oommen2022learning,
+    title     = {Learning two-phase microstructure evolution using neural operators and autoencoder architectures},
+    author    = {Oommen, Vivek and Shukla, Khemraj and Goswami, Somdatta and Dingreville, R{\'e}mi and Karniadakis, George Em},
+    journal   = {npj Computational Materials},
+    year      = {2022},
+    abstract  = {Phase-field modeling is an effective but computationally expensive method for capturing the mesoscale morphological and microstructure evolution in materials. Hence, fast and generalizable surrogate models are needed to alleviate the cost of computationally taxing processes such as in optimization and design of materials. The intrinsic discontinuous nature of the physical phenomena incurred by the presence of sharp phase boundaries makes the training of the surrogate model cumbersome. We develop a framework that integrates a convolutional autoencoder architecture with a deep neural operator (DeepONet) to learn the dynamic evolution of a two-phase mixture and accelerate time-to-solution in predicting the microstructure evolution. We utilize the convolutional autoencoder to provide a compact representation of the microstructure data in a low-dimensional latent space. After DeepONet is trained in the latent space, it can be used to replace the high-fidelity phase-field numerical solver in interpolation tasks or to accelerate the numerical solver in extrapolation tasks.},
+    code      = {https://github.com/vivekoommen/NPJCOMPUMATS-03747},
+    html      = {https://www.nature.com/articles/s41524-022-00876-7},
+    selected  = {false},
+    img_path  = {assets/img/lat_deeponet.png}
+}
+
+@article{oommen2022solving,
+    title     = {Solving inverse heat transfer problems without surrogate models: a fast, data-sparse, physics informed neural network approach},
+    author    = {Oommen, Vivek and Srinivasan, Balaji},
+    journal   = {Journal of Computing and Information Science in Engineering},
+    year      = {2022},
+    abstract  = {Physics informed neural networks have been recently gaining attention for effectively solving a wide variety of partial differential equations. Unlike the traditional machine learning techniques that require experimental or computational databases for training surrogate models, physics informed neural network avoids the excessive dependence on prior data by injecting the governing physical laws as regularizing constraints into the underlying neural network model. Although one can find several successful applications of physics informed neural network in the literature, a systematic study that compares the merits and demerits of this method with conventional machine learning methods is not well explored. In this study, we aim to investigate the effectiveness of this approach in solving inverse problems by comparing and contrasting its performance with conventional machine learning methods while solving four inverse test cases in heat transfer. We show that physics informed neural network is able to solve inverse heat transfer problems in a data-sparse manner by avoiding surrogate models altogether. This study is expected to contribute toward a more robust and effective solution for inverse heat transfer problems. We intend to sensitize researchers in inverse methods to this emerging approach and provide a preliminary analysis of its advantages and disadvantages.},
+    html      = {https://asmedigitalcollection.asme.org/computingengineering/article/22/4/041012/1135450/Solving-Inverse-Heat-Transfer-Problems-Without?casa_token=_7gK0kPw8YgAAAAA:AHniFjvWmwXSK05sJjhmk34ZKhedo97Tqq6ZO867r2LZlXTYE3BAU_xWBwFtCwOIqGCOcgha},
+    selected  = {false},
+    img_path  = {assets/img/pinn_ht.png}
+}
