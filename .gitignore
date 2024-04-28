@@ -1,3 +1,4 @@
+_site
 .bundle
 .sass-cache
 .jekyll-cache
@@ -6,3 +7,5 @@
 .ruby-version
 .tweet-cache
 vendor
+Gemfile.lock
+deploy.sh
