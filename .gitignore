@@ -8,4 +8,5 @@ _site
 .tweet-cache
 vendor
 Gemfile.lock
+compile.sh
 deploy.sh
