@@ -1,3 +1,3 @@
 # Vivek Oommen
-[my homepage](https://vivekoommen.github.io)
+[homepage](https://vivekoommen.github.io)
 
