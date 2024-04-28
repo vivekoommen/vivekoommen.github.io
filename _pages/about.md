@@ -19,7 +19,7 @@ honors: false
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a 3rd year PhD student in the Fluid & Thermal Sciences Engineering, Brown University, advised by Prof. George Karniadakis. Research Interests - Scientific Machine Learning with a focus on learning interface problems often encountered in materials sciences and high-speed flows. 
+I am a third year PhD student in the Fluid & Thermal Sciences Engineering, Brown University, advised by Prof. George Karniadakis. Research Interests - Scientific Machine Learning with a focus on learning interface problems often encountered in materials sciences and high-speed flows. 
 
 <!-- I am a graduate student in the [Deep Image Processing Lab](https://sites.google.com/view/deepiplab/home?authuser=0), advised by Prof. [Seung-Won Jung](https://sites.google.com/view/deepiplab/home?authuser=0). I am currently pursuing the MS & Ph.D degree in Electrical Engineering at [Korea University](www.korea.ac.kr) in Seoul, Korea. Previously, I completed my B.S. in Electronic Engineering at [Kyunghee University](https://www.khu.ac.kr/kor/main/index.do). My research interests are including :
 - Computer Vision
