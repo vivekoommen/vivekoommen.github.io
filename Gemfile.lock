@@ -167,25 +167,58 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  feedjira
-  httparty
-  jekyll
-  jekyll-archives
-  jekyll-diagrams
-  jekyll-email-protect
+  activesupport (= 7.1.3.2)
+  bibtex-ruby (= 6.1.0)
+  bigdecimal (= 3.1.7)
+  citeproc (= 1.0.10)
+  citeproc-ruby (= 1.1.14)
+  crass (= 1.0.6)
+  csl (= 1.6.0)
+  csl-styles (= 1.0.1.11)
+  cssminify2 (= 2.0.1)
+  drb (= 2.2.1)
+  feedjira (= 3.2.3)
+  google-protobuf (= 4.26.1)
+  htmlcompressor (= 0.4.0)
+  httparty (= 0.21.0)
+  i18n (= 1.14.4)
+  jekyll (= 4.3.3)
+  jekyll-archives (= 2.2.1)
+  jekyll-diagrams (= 0.10.0)
+  jekyll-email-protect (= 1.1.0)
   jekyll-feed
-  jekyll-imagemagick
-  jekyll-minifier
-  jekyll-paginate-v2
-  jekyll-scholar
+  jekyll-imagemagick (= 1.4.0)
+  jekyll-minifier (= 0.1.10)
+  jekyll-paginate-v2 (= 3.0.0)
+  jekyll-sass-converter (= 3.0.0)
+  jekyll-scholar (= 7.1.3)
   jekyll-sitemap
-  jekyll-target-blank
-  jekyll-twitter-plugin
+  jekyll-target-blank (= 2.0.2)
+  jekyll-twitter-plugin (= 2.1.0)
   jemoji
-  mini_racer
-  nokogiri
-  unicode_utils
-  webrick
+  json (= 2.7.2)
+  json-minify (= 0.0.3)
+  latex-decode (= 0.4.0)
+  libv8-node (= 21.7.2.0)
+  listen (= 3.9.0)
+  loofah (= 2.22.0)
+  mercenary (= 0.4.0)
+  mini_mime (= 1.1.5)
+  mini_racer (= 0.12.0)
+  minitest (= 5.22.3)
+  multi_xml (= 0.6.0)
+  namae (= 1.2.0)
+  nokogiri (= 1.16.4)
+  public_suffix (= 5.0.5)
+  rake (= 13.2.1)
+  rouge (= 4.2.1)
+  sass-embedded (= 1.75.0)
+  sax-machine (= 1.3.2)
+  terminal-table (= 3.0.2)
+  uglifier (= 4.2.0)
+  unicode-display_width (= 2.5.0)
+  unicode_utils (= 1.4.0)
+  webrick (= 1.8.1)
 
 BUNDLED WITH
    2.1.4
