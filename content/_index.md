@@ -9,33 +9,33 @@ design:
   spacing: "6rem"
 
 sections:
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-      text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
-    design:
-      css_class: dark
-      background:
-        color: black
-        image:
-          # Add your image background to `assets/media/`.
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
-          size: cover
-          position: center
-          parallax: false
+  # - block: resume-biography-3
+  #   content:
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  #     text: ""
+  #     # Show a call-to-action button under your biography? (optional)
+  #     button:
+  #       text: Download CV
+  #       url: uploads/resume.pdf
+  #   design:
+  #     css_class: dark
+  #     background:
+  #       color: black
+  #       image:
+  #         # Add your image background to `assets/media/`.
+  #         filename: stacked-peaks.svg
+  #         filters:
+  #           brightness: 1.0
+  #         size: cover
+  #         position: center
+  #         parallax: false
   - block: markdown
     content:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am fourth year PhD student advised by Prof. George Em Karniadakis, CRUNCH Group, Brown University. I try to apply the recent advances in machine learning to solve problems in physical and engineering systems. My research involves neural operators, diffusion models, physics informed machine learning, and their applications to mechanics, fluids and material sciences. 
+        I'm a fourth-year PhD student at Brown University, working with Prof. George Em Karniadakis in the CRUNCH Group. I'm interested in the recent machine learning advancements to tackle real-world problems in physical and engineering systems. My research focuses on neural operators, diffusion models, physics-informed machine learning, and their applications in mechanics, fluid dynamics, and material science. 
     design:
       columns: '1'
   - block: collection
