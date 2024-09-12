@@ -54,18 +54,13 @@ education:
     date_start: 2021-09-01
     date_end: 
     summary: |
-      Supervised by [Prof. George Em Karniadakis](https://vivo.brown.edu/display/gkarniad). 
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      Supervised by Prof. George Em Karniadakis.
+  - area: Dual-Degree (Mechanical Engineering + Data Science)
+    institution: IIT Madras
+    date_start: 2016-07-01
+    date_end: 2021-06-31
     summary: |
-      GPA: 3.8/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Supervised by Prof. Balaji Srinivasan.
   - area: BSc Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
