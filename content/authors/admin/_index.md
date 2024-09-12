@@ -54,13 +54,13 @@ education:
     date_start: 2021-09-01
     date_end: 
     summary: |
-      Supervised by Prof. George Em Karniadakis.
+      Advised by Prof. George Em Karniadakis.
   - area: Dual Degree Mechanical Engineering and Data Science
     institution: IIT Madras
     date_start: 2016-07-01
     date_end: 2021-06-30
     summary: |
-      Supervised by Prof. Balaji Srinivasan.
+      Advised by Prof. Balaji Srinivasan.
 #   - area: BSc Artificial Intelligence
 #     institution: Massachusetts Institute of Technology
 #     date_start: 2016-01-01
@@ -172,4 +172,4 @@ education:
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am a fourth year PhD student in the Fluid & Thermal Sciences Engineering, Brown University, advised by Prof. George Karniadakis.
