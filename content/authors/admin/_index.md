@@ -55,10 +55,10 @@ education:
     date_end: 
     summary: |
       Supervised by Prof. George Em Karniadakis.
-  - area: Dual-Degree (Mechanical Engineering + Data Science)
+  - area: Dual-Degree - Mechanical Engineering and Data Science
     institution: IIT Madras
     date_start: 2016-07-01
-    date_end: 2021-06-31
+    date_end: 2021-06-30
     summary: |
       Supervised by Prof. Balaji Srinivasan.
   - area: BSc Artificial Intelligence
