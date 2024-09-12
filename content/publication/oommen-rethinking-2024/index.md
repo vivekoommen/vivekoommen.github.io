@@ -23,19 +23,13 @@ summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere t
 tags:
 - Large Language Models
 
-featured: true
+featured: false
 
 links:
 - name: Custom Link
   url: http://example.org
 url_pdf: http://arxiv.org/pdf/1512.04133v1
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+url_code: 'https://github.com/vivekoommen/UNetForMicrostructureEvolution'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
