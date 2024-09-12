@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Vivek Oommen
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Vivek Oommen
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Vivek
+last_name: Oommen
 
 # Status emoji
 status:
