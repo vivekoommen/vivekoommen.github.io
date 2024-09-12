@@ -30,7 +30,7 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: /workspaces/vivekoommen.github.io/assets/media/icons/email.svg
+  - icon: at-symbol
     url: 'mailto:vivek_oommen@brown.edu'
     label: E-mail Me
   - icon: brands/github
@@ -43,9 +43,10 @@ profiles:
     url: https://orcid.org/0000-0003-4363-6896
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - AI for Science
+  - Fluids
+  - Materials
+  - Mechanics
 
 education:
   - area: PhD Artificial Intelligence
