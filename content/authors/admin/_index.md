@@ -49,10 +49,10 @@ interests:
   - Mechanics
 
 education:
-  - area: PhD Fluid and Thermal Sciences Engineering
+  - area: PhD Fluid and Thermal Sciences 
     institution: Brown University
     date_start: 2021-09-01
-    date_end: 2024-09-01
+    date_end: 
     summary: |
       Supervised by Prof. George Em Karniadakis
   - area: MEng Artificial Intelligence
