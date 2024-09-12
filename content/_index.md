@@ -35,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am interested in applying the recent advances in machine learning to physical and systems. 
+        I am fourth year PhD student advised by Prof. George Em Karniadakis, CRUNCH Group, Brown University. I try to apply the recent advances in machine learning to solve problems in physical and engineering systems. My research involves neural operators, diffusion models, physics informed machine learning, and their applications to mechanics, fluids and material sciences. 
     design:
       columns: '1'
   - block: collection
