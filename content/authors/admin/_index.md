@@ -3,7 +3,7 @@
 title: Vivek Oommen
 
 # Name pronunciation (optional)
-name_pronunciation: Vivek Oommen
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Vivek
