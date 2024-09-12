@@ -38,17 +38,17 @@ sections:
         I'm a fourth-year PhD student at Brown University, working with Prof. George Em Karniadakis in the CRUNCH Group. I'm interested in the recent machine learning advancements to tackle problems in physical and engineering systems. My research focuses on neural operators, diffusion models, physics-informed machine learning, and their applications in mechanics, fluid dynamics, and material science. 
     design:
       columns: '1'
-  - block: collection
-    id: papers
-    content:
-      title: Blogs
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+  # - block: collection
+  #   id: papers
+  #   content:
+  #     title: Blogs
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
   - block: collection
     content:
       title: Recent Publications
