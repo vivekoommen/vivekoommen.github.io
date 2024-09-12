@@ -54,7 +54,7 @@ education:
     date_start: 2021-09-01
     date_end: 
     summary: |
-      Supervised by Prof. George Em Karniadakis
+      Supervised by [Prof. George Em Karniadakis](https://vivo.brown.edu/display/gkarniad). 
   - area: MEng Artificial Intelligence
     institution: Massachusetts Institute of Technology
     date_start: 2016-01-01
